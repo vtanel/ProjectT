@@ -1,10 +1,23 @@
-body {
+#kast {
     width: 600px;
     height: 700px;
     margin:auto;
     border: 2px solid black;
+    background-image: url("palmid-640x410.jpg");
+    background-repeat:no-repeat;
 }
 
 h1 {
-    color:blue;
+    color:aqua;
+    -webkit-text-stroke: 0.3px black;
+    margin-left: 15px;
+}
+
+#pilt {
+    display: block;
+    max-width:250px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+    margin-left: 15px;
 }
